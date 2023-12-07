@@ -1,6 +1,6 @@
-# portfolio
+# Portfolio
 personal site 2.0
-# # # Built With:
+# Built With:
 - HTML
 - CSS
 - Vanilla Javascript 
