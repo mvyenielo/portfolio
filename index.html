@@ -28,108 +28,107 @@
   </header>
   <img class="j-tree-background" src="photos/j_tree_cutout.png">
 
-<div id="intro" class="intro-container fade-in">
-    <img class="profile-pic" src="photos/mv-prof-pic-1.jpg">
-    <div class="intro-text">
-      <h1 class="intro-title">Hi! I'm Megan Vyenielo.</h1>
-      <h4 class="intro-pronunciation">"v-n-l-o"</h4>
-      <h4 class="intro-tagline"> full stack software engineer / wearer of many hats.</h4>
-      <!-- <button onclick="window.location.href='#portfolio';" class="btn btn-light">portfolio</button> -->
+  <div id="intro" class="intro-container fade-in">
+      <img class="profile-pic" src="photos/mv-prof-pic-1.jpg">
+      <div class="intro-text">
+        <h1 class="intro-title">Hi! I'm Megan Vyenielo.</h1>
+        <h4 class="intro-pronunciation">"v-n-l-o"</h4>
+        <h4 class="intro-tagline"> full stack software engineer / wearer of many hats.</h4>
+        <!-- <button onclick="window.location.href='#portfolio';" class="btn btn-light">portfolio</button> -->
+      </div>
     </div>
   </div>
-</div>
-</div>
 
-<div id="about" class="about-container fade-in">
-  <div class="card about-text">
-    <p class="card-body">
-      I am a software engineer transitioning from the world of education.
-      I strive to be part of a creative, purpose-driven, collaborative, and
-      analytical, environment. I am a forever learner, and am not afraid to
-      reflect on my own work in order to improve my practice.
-      <br>
-      <br>
-      Beyond programming, I enjoy spending time outdoors, photography, muay thai,
-      learning to sew, cooking, following track and field, and dabbling in music.
-    </p>
+  <div id="about" class="about-container fade-in">
+    <div class="card about-text">
+      <p class="card-body">
+        I am a software engineer transitioning from the world of education.
+        I strive to be part of a creative, purpose-driven, collaborative, and
+        analytical, environment. I am a forever learner, and am not afraid to
+        reflect on my own work in order to improve my practice.
+        <br>
+        <br>
+        Beyond programming, I enjoy spending time outdoors, photography, muay thai,
+        learning to sew, cooking, following track and field, and dabbling in music.
+      </p>
+    </div>
   </div>
-</div>
 
-<div id="portfolio" class="portfolio-container fade-in">
-  <div class="card project-container rithmsis">
-    <img class="card-img"></img>
-    <div class="card-title">
-      Rithm SIS
+  <div id="portfolio" class="portfolio-container fade-in">
+    <div class="card project-container rithmsis">
+      <img class="card-img"></img>
+      <div class="card-title">
+        Rithm SIS
+      </div>
+      <button
+        onclick="document.getElementsByClassName('project-description')[0].toggleAttribute('hidden');"
+        class="btn btn-light"
+      >
+        project details
+      </button>
+      <div hidden class="project-description card-body">
+        abc123
+      </div>
     </div>
-    <button
-      onclick="document.getElementsByClassName('project-description')[0].toggleAttribute('hidden');"
-      class="btn btn-light"
-    >
-      project details
-    </button>
-    <div hidden class="project-description card-body">
-      abc123
+    <div class="card project-container sharebnb">
+      <img class="card-img"></img>
+      <div class="card-title">
+        Sharebnb
+      </div>
+      <button
+        onclick="document.getElementsByClassName('project-description')[1].toggleAttribute('hidden');"
+        class="btn btn-light"
+      >
+        project details
+      </button>
+      <div hidden class="project-description card-body">
+        abc123
+      </div>
+    </div>
+    <div class="card project-container warbler">
+      <img class="card-img"></img>
+      <div class="card-title">
+        Warbler
+      </div>
+      <button
+        onclick="document.getElementsByClassName('project-description')[2].toggleAttribute('hidden');"
+        class="btn btn-light"
+      >
+        project details
+      </button>
+      <div hidden class="project-description card-body">
+        abc123
+      </div>
+    </div>
+    <div class="card project-container jampact">
+      <img class="card-img"></img>
+      <div class="card-title">
+        JamPact
+      </div>
+      <button
+        onclick="document.getElementsByClassName('project-description')[3].toggleAttribute('hidden');"
+        class="btn btn-light"
+      >
+        project details
+      </button>
+      <div hidden class="project-description card-body">
+        abc123
+      </div>
     </div>
   </div>
-  <div class="card project-container sharebnb">
-    <img class="card-img"></img>
-    <div class="card-title">
-      Sharebnb
-    </div>
-    <button
-      onclick="document.getElementsByClassName('project-description')[1].toggleAttribute('hidden');"
-      class="btn btn-light"
-    >
-      project details
-    </button>
-    <div hidden class="project-description card-body">
-      abc123
-    </div>
+  <div class="bottom fade-in" id="contact">
+    <h2>let's connect!</h2>
+    <a href="mailto:mvyenielo58@gmail.com"
+    target="blank"><img class="email-logo" src="photos/email-logo.png" alt="email"></a>
+    <a href="https://www.linkedin.com/in/megan-vyenielo-35742633"
+    target="blank"><img class="linkedin-logo" src="photos/linkedin-logo-blk.png" alt="linkedin"></a>
+    <a href="https://github.com/mvyenielo"
+    target="blank"><img class="github-logo" src="photos/github-logo-blk.png" alt="github"></a>
+    <br>
+    <br>
   </div>
-  <div class="card project-container warbler">
-    <img class="card-img"></img>
-    <div class="card-title">
-      Warbler
-    </div>
-    <button
-      onclick="document.getElementsByClassName('project-description')[2].toggleAttribute('hidden');"
-      class="btn btn-light"
-    >
-      project details
-    </button>
-    <div hidden class="project-description card-body">
-      abc123
-    </div>
-  </div>
-  <div class="card project-container jampact">
-    <img class="card-img"></img>
-    <div class="card-title">
-      JamPact
-    </div>
-    <button
-      onclick="document.getElementsByClassName('project-description')[3].toggleAttribute('hidden');"
-      class="btn btn-light"
-    >
-      project details
-    </button>
-    <div hidden class="project-description card-body">
-      abc123
-    </div>
-  </div>
-</div>
-<div class="bottom fade-in" id="contact">
-  <h2>let's connect!</h2>
-  <a href="mailto:mvyenielo58@gmail.com"
-  target="blank"><img class="email-logo" src="photos/email-logo.png" alt="email"></a>
-  <a href="https://www.linkedin.com/in/megan-vyenielo-35742633"
-  target="blank"><img class="linkedin-logo" src="photos/linkedin-logo-blk.png" alt="linkedin"></a>
-  <a href="https://github.com/mvyenielo"
-  target="blank"><img class="github-logo" src="photos/github-logo-blk.png" alt="github"></a>
-  <br>
-  <br>
-</div>
-<footer class="footer">
-  <a href="#top">^back to top^</a>
-</footer>
+  <footer class="footer">
+    <a href="#top">^back to top^</a>
+  </footer>
 </body>
 </html>
