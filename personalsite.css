@@ -29,7 +29,7 @@ body {
     transform: translateY(-10px);
   }
 }
-
+/* NAV */
 .nav {
   margin-right: 1rem;
   padding: 2rem;
@@ -43,6 +43,7 @@ body {
   width: 100vw;
   position: fixed;
   z-index: 1;
+  color: black;
 }
 
 .name {
