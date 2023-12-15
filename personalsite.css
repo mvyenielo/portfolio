@@ -46,6 +46,11 @@ body {
   color: black;
 }
 
+.nav-links a{
+  color: black;
+  text-decoration: none;
+}
+
 .name {
   margin-right: 2rem;
   font-weight: bolder;
