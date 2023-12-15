@@ -16,6 +16,20 @@ body {
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
+.arrow {
+  transform: rotate(45deg);
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 .nav {
   margin-right: 1rem;
   padding: 2rem;
@@ -139,14 +153,31 @@ h3 {
 
 
 .project-container {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   padding: 1rem;
-  margin: 1.5rem;
+  margin: 1.2rem;
   width: 500px;
   height: 300px;
+  display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #EAE7DC;
   color: #E85A4F;
+}
+
+.links a {
+  color:#E85A4F;
+  text-decoration: underline;
+}
+
+.links a:visited {
+  color: #E85A4F;
+}
+
+.card-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: .5rem;
 }
 
 /* BOTTOM/CONTACT */
@@ -246,7 +277,9 @@ background-color: #E85A4F;
     margin: 1.5rem;
     width: 200px;
     height: 100px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #EAE7DC;
     color: #E85A4F;
   }
@@ -268,6 +301,19 @@ background-color: #E85A4F;
     width:auto;
     margin-left: 3rem;
   }
+
+  .card-img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: .5rem;
+  }
+
+  .bottom img {
+    height: 30px;
+    width: 30px;
+    text-align: end;
+    filter: invert(100%);
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -280,7 +326,9 @@ background-color: #E85A4F;
     margin: 1.5rem;
     width: 300px;
     height: 150px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #EAE7DC;
     color: #E85A4F;
   }
@@ -295,6 +343,19 @@ background-color: #E85A4F;
     width: 400px;
     height: auto;
     margin: 2rem;
+  }
+
+  .card-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: .5rem;
+  }
+
+  .bottom img {
+    height: 40px;
+    width: 40px;
+    text-align: end;
+    filter: invert(100%);
   }
 
   .mv-cutout {
@@ -315,7 +376,9 @@ background-color: #E85A4F;
     margin: 1.5rem;
     width: 400px;
     height: 200px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #EAE7DC;
     color: #E85A4F;
   }
@@ -330,6 +393,13 @@ background-color: #E85A4F;
     width: 500px;
     height: auto;
     margin: 2rem;
+  }
+
+  .bottom img {
+    height: 50px;
+    width: 50px;
+    text-align: end;
+    filter: invert(100%);
   }
 
   .mv-cutout {
@@ -349,7 +419,9 @@ background-color: #E85A4F;
     margin: 1.5rem;
     width: 500px;
     height: 250px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #EAE7DC;
     color: #E85A4F;
   }
@@ -366,11 +438,16 @@ background-color: #E85A4F;
     margin: 2rem;
   }
 
+  .card-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: .5rem;
+  }
+
   .mv-cutout {
     height: 500px;
     width:auto;
     margin-left: 3rem;
   }
-
 }
 
