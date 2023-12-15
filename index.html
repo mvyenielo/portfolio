@@ -7,13 +7,24 @@
   <link rel="icon" href="photos/many_hats.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Megan Vyenielo</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Libre+Baskerville&family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Libre+Baskerville&family=Poiret+One&family=Questrial&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="personalsite.css">
 </head>
 <body>
+<div class="nav-and-intro">
   <header class="header">
     <nav class="nav">
       <div class="logo">
@@ -26,35 +37,36 @@
       </div>
     </nav>
   </header>
-  <img class="j-tree-background" src="photos/j_tree_cutout.png">
-
-  <div id="intro" class="intro-container fade-in">
-      <img class="profile-pic" src="photos/mv-prof-pic-1.jpg">
-      <div class="intro-text">
-        <h1 class="intro-title">Hi! I'm Megan Vyenielo.</h1>
-        <h4 class="intro-pronunciation">"v-n-l-o"</h4>
-        <h4 class="intro-tagline"> full stack software engineer / wearer of many hats.</h4>
-        <!-- <button onclick="window.location.href='#portfolio';" class="btn btn-light">portfolio</button> -->
-      </div>
+  <div id="intro" class="content intro-container fade-in">
+    <img class="profile-pic" src="photos/mv-prof-pic-1.jpg">
+    <div class="intro-text">
+      <h1 class="intro-title">Software Engineer</h1>
+      <h4 class="intro-title">&</h3>
+      <h3 class="intro-title">Wearer Of Many Hats</h3>
     </div>
+    <a href="#about">
+      <i class="bi bi-arrow-down"></i>
+    </a>
   </div>
-
-  <div id="about" class="about-container fade-in">
-    <div class="card about-text">
-      <p class="card-body">
-        I am a software engineer transitioning from the world of education.
-        I strive to be part of a creative, purpose-driven, collaborative, and
-        analytical, environment. I am a forever learner, and am not afraid to
-        reflect on my own work in order to improve my practice.
+</div>
+  <div id="about" class="content about-container fade-in">
+    <p class="about-text">
+        I am a full stack software engineer transitioning from the world of
+        education. I strive to be part of a creative, purpose-driven,
+        collaborative, and analytical, environment. I am a forever learner, and
+        I'm not afraid to reflect on my own work in order to improve my practice.
         <br>
         <br>
         Beyond programming, I enjoy spending time outdoors, photography, muay thai,
         learning to sew, cooking, following track and field, and dabbling in music.
-      </p>
-    </div>
+    </p>
+    <a href="#portfolio">
+      <i class="bi bi-arrow-down"></i>
+    </a>
   </div>
-
-  <div id="portfolio" class="portfolio-container fade-in">
+<div class="portfolio-and-contact">
+<div class="portfolio-wrapper">
+  <div id="portfolio" class="content portfolio-container fade-in">
     <div class="card project-container rithmsis">
       <img class="card-img"></img>
       <div class="card-title">
@@ -100,35 +112,32 @@
         abc123
       </div>
     </div>
-    <div class="card project-container jampact">
-      <img class="card-img"></img>
-      <div class="card-title">
-        JamPact
-      </div>
-      <button
-        onclick="document.getElementsByClassName('project-description')[3].toggleAttribute('hidden');"
-        class="btn btn-light"
-      >
-        project details
-      </button>
-      <div hidden class="project-description card-body">
-        abc123
-      </div>
+  </div>
+  <a href="#contact">
+    <i class="bi bi-arrow-down"></i>
+  </a>
+  </div>
+  <div class="bottom-img">
+    <div class="content bottom fade-in" id="contact">
+      <h2>let's connect!</h2>
+      <a href="mailto:mvyenielo58@gmail.com"
+      target="blank"><img class="email-logo" src="photos/email-logo.png" alt="email"></a>
+      <a href="https://www.linkedin.com/in/megan-vyenielo-35742633"
+      target="blank"><img class="linkedin-logo" src="photos/linkedin-logo-blk.png" alt="linkedin"></a>
+      <a href="https://github.com/mvyenielo"
+      target="blank"><img class="github-logo" src="photos/github-logo-blk.png" alt="github"></a>
+      <br>
+      <br>
     </div>
+    <img class="mv-cutout" src="photos/cutout_mv_pic.png">
   </div>
-  <div class="bottom fade-in" id="contact">
-    <h2>let's connect!</h2>
-    <a href="mailto:mvyenielo58@gmail.com"
-    target="blank"><img class="email-logo" src="photos/email-logo.png" alt="email"></a>
-    <a href="https://www.linkedin.com/in/megan-vyenielo-35742633"
-    target="blank"><img class="linkedin-logo" src="photos/linkedin-logo-blk.png" alt="linkedin"></a>
-    <a href="https://github.com/mvyenielo"
-    target="blank"><img class="github-logo" src="photos/github-logo-blk.png" alt="github"></a>
-    <br>
-    <br>
-  </div>
-  <footer class="footer">
-    <a href="#top">^back to top^</a>
-  </footer>
+</div>
+<footer class="footer">
+  <a href="#top"
+     class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
