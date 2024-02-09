@@ -6,6 +6,20 @@ const options = {
   threshold: 0.5
 };
 
+document.addEventListener('DOMContentLoaded', () => {
+  "use strict";
+
+  /**
+   * Preloader
+   */
+  const preloader = document.querySelector('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }
+});
+
 const fadeInCallback = (entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting && !entry.target.classList.contains('is-visible')) {
