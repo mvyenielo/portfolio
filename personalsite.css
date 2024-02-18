@@ -44,6 +44,7 @@ body {
   position: fixed;
   z-index: 1;
   color: black;
+
 }
 
 .nav-links a{
@@ -78,18 +79,26 @@ body {
   flex-direction:column;
   align-items: center;
   justify-content:center;
-  padding: 2rem;
+  /* padding: 2rem; */
   height: 100vh;
+  width: 100vw;
+  background-image: url(photos/mv-prof-pic-1.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 .intro-text {
   font-family: 'Poiret One', sans-serif;
-  font-weight: bolder;
+  font-weight:bolder;
   align-items: center;
   justify-content:center;
   display: flex;
   flex-direction: column;
-  color: black;
+  color:black;
+  background-color:#E98074;
+  opacity: 70%;
+  padding: 2rem;
 }
 
 h1 {
@@ -199,7 +208,6 @@ h3 {
 .mv-cutout {
   height: 500px;
   width:auto;
-
   margin-left: 3rem;
 }
 
@@ -269,7 +277,6 @@ background-color: #E85A4F;
   visibility: visible;
   opacity: 1;
 }
-
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
